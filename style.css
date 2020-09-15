@@ -1,0 +1,31 @@
+/*
+    Theme Name: North East Metal Spinners
+    Author: Nick Watt
+    Author URI: https://gtctek.co.uk
+    Description: Customised theme for North East Metal Spinners (Partscale Ltd.) website
+    Version: 0.1
+*/
+
+body {
+    background: #fff;
+}
+
+.page_footer {
+    text-align: center;
+}
+
+.page_footer:before {
+    content: "";
+    display: block;
+    min-height: 4px;
+    background: -webkit-linear-gradient(left, #fcdd3f, #fcdd3f 33.3333%, #f9a450 33.3334%, #f9a450 66.6666%, #a2cc41 66.6667%);
+    background: linear-gradient(to right, #fcdd3f, #fcdd3f 33.3333%, #f9a450 33.3334%, #f9a450 66.6666%, #a2cc41 66.6667%);
+}
+
+.page_footer .copyright {
+    border-top: solid 1px rgba(0,0,0,0.1);
+}
+
+/* .page_footer .theme {
+    text-align: center;
+} */
